@@ -100,7 +100,7 @@ a i {
 }
 
 .blurbs hr {
-    color:#ddd;
+    border: 0.7px solid #eee;
     
 }
 
@@ -301,4 +301,8 @@ small {
     .icon{
         width:50%;
     }
+ }
+
+ .md12 {
+     margin-bottom:12px;    
  }
