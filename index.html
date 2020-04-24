@@ -15,7 +15,7 @@
 <body>
     <!-- SIDE NAV -->
     <div class="sidenav" id="sidenav">
-        <div class="sidehead"  id="sidehead1" style="color:white; text-align:center; padding:10px 15px;font-size:18px">
+        <div class="sidehead" id="sidehead1" style="color:white; text-align:center; padding:10px 15px;font-size:18px">
             <a>HELLO, INTERN
                 <br>👨‍💻
             </a>
@@ -37,15 +37,15 @@
         <div class="navbar">
             <div class="row navelem">
                 <div class="navtext quarter">Dashboard</div>
-                <div class="togglebtn rest"><a onclick="toggleNav()" >☰</a></div>
-                <div class="othnav rest" >
+                <div class="togglebtn rest"><a onclick="toggleNav()">☰</a></div>
+                <div class="othnav rest">
                     <ul style="margin:0; float: right;">
                         <li>INTERNSHIP ID: SNG-02675</li>
                         <li>Praiseajayi2@gmail.com</li>
                         <li>Actions </li>
                         <li><button class="btn blue" type="submit">LOG OUT</button> </li>
                     </ul>
-                    
+
                 </div>
             </div>
         </div>
@@ -97,7 +97,7 @@
                         <div class="blurbs pd15">
                             <div class="row" style="padding-bottom: 25px;">
                                 <div class="icon quarter"><i class="pe-7s-user"
-                                        style="color:#1dc7ea!important; font-size: 3em; font-weight: 700;"></i></div>
+                                        style="color:#1dc7ea!important; font-size: 40px; font-weight: 700;"></i></div>
                                 <div class="blb-text rest">
                                     <p style="font-size: 16px;">Current Stage</p>
                                     <p class="blurb-num">4</p>
@@ -159,7 +159,7 @@
                                     <li>
                                         <div class="listitem">
                                             <p><strong>
-                                                HTML Task 3: Create a personal profile page</strong></p>
+                                                    HTML Task 3: Create a personal profile page</strong></p>
                                             <small>Deadline: 24/04/2020 12:00 AM</small>
                                             <div>
                                                 <small class="blue badges">HTML, CSS, Javascript</small>
@@ -262,7 +262,7 @@
 
 <script>
     var sidebar = 0
-    function toggleNav  () {
+    function toggleNav() {
         if (sidebar == 0) {
             document.getElementById("sidenav").style.width = "260px";
             document.getElementById("main").style.marginRight = "260px";
@@ -277,9 +277,8 @@
             document.getElementById("sidehead2").style.display = "none"
         }
         sidebar = parseInt(document.getElementById("sidenav").style.width)
-        
+
     }
 </script>
 
 </html>
-

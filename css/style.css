@@ -123,13 +123,6 @@ a i {
     padding:0px;
 }
 
-.rest {
-    float: left;
-    width: 75%;
-    margin:0px; 
-    
-}
-
 .header p {
     color:rgb(154, 154, 154);
     margin:0px;
@@ -235,6 +228,7 @@ small {
     display:block;
     text-align: right;
     font-size: 20px;
+    cursor: pointer;
 }
 
  .btn {
@@ -262,17 +256,29 @@ small {
 
     .togglebtn {
          display:none;
-         
      }
+     
+    .rest {
+        float: left;
+        width: 75%;
+        margin:0px;  
+    }
  }
 
  @media screen and (max-width:900px) {
-     .quarter {
+    .quarter {
          width:50%;
          margin-top:12px;
      }
 
-     .togglebtn {
+    .rest {
+        float: left;
+        width: 50%;
+        margin:0px;  
+    }
+
+
+    .togglebtn {
         display:block;
         width:50%;
      }
@@ -290,5 +296,9 @@ small {
 
     .togglebtn {
         width:10%;
+    }
+
+    .icon{
+        width:50%;
     }
  }
